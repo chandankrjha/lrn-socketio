@@ -1,0 +1,25 @@
+{
+  "dependencies": {
+    "express": "^4.16.2",
+    "socket.io": "^2.0.4"
+  },
+  "name": "lrn-socketio",
+  "description": "socketio",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chandankrjha/lrn-socketio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chandankrjha/lrn-socketio/issues"
+  },
+  "homepage": "https://github.com/chandankrjha/lrn-socketio#readme"
+}
