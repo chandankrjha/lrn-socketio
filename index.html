@@ -23,5 +23,21 @@
     <script>
       var socket = io();
     </script>
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="./js/jquery.min.js"></script>
+    <script>
+    $(function () {
+      var socket = io();
+      $('form').submit(function(){
+        socket.emit('chat message', $('#m').val());
+        $('#m').val('');
+        return false;
+      });
+      socket.on('chat message', function(msg){
+        $('#messages').append($('<li>').text(msg));
+      });
+    });
+  </script>
   </body>
 </html>
